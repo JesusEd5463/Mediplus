@@ -22,8 +22,8 @@
         android:ems="10"
         android:inputType="text"
         android:text="Elegir Fecha y Hora"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="119dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="111dp" />
 
     <TextView
         android:id="@+id/textView9"
