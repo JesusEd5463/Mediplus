@@ -66,8 +66,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="378dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="User"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
