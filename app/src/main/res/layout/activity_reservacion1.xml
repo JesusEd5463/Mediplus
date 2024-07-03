@@ -5,37 +5,34 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F6E9EA"
     tools:context=".Reservacion1">
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="412dp"
-        android:layout_height="93dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="656dp"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/bottom_bar"
-        tools:layout_editor_absoluteX="-1dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:srcCompat="@color/material_dynamic_secondary80" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="412dp"
-        android:layout_height="93dp"
-        android:layout_marginTop="656dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/bottom_bar"
-        tools:layout_editor_absoluteX="-1dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="62dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:srcCompat="@color/material_dynamic_secondary80" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="138dp"
+        android:layout_height="29dp"
+        android:rotation="0"
         android:text="MediPlus"
         tools:layout_editor_absoluteX="109dp"
         tools:layout_editor_absoluteY="38dp" />
@@ -76,7 +73,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hola (User)"
+        android:background="#F4E8E8"
+        android:text="BIENVEDIDO(USER)"
         tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="122dp" />
 
@@ -91,8 +89,17 @@
     <SearchView
         android:layout_width="337dp"
         android:layout_height="43dp"
+        android:orientation="horizontal"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="199dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="63dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/_361728_removebg_preview"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
