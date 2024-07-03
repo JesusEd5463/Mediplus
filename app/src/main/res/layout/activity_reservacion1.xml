@@ -34,16 +34,9 @@
         android:layout_height="29dp"
         android:rotation="0"
         android:text="MediPlus"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="38dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="42dp"
-        android:layout_height="53dp"
-        app:srcCompat="@android:drawable/ic_dialog_dialer"
-        tools:layout_editor_absoluteX="353dp"
-        tools:layout_editor_absoluteY="23dp" />
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="31dp" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -74,7 +67,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#F4E8E8"
-        android:text="BIENVEDIDO(USER)"
+        android:text="BIENVEDIDO (USER)"
+        android:textSize="24dp"
         tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="122dp" />
 
@@ -82,24 +76,33 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Resrva la cita de la forma más rápida"
+        android:text="Reserva la cita de la forma más rápida"
+        android:textSize="18dp"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="152dp" />
+        tools:layout_editor_absoluteY="175dp" />
 
     <SearchView
         android:layout_width="337dp"
         android:layout_height="43dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="199dp" />
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="244dp" />
 
     <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="63dp"
-        android:layout_height="58dp"
-        app:srcCompat="@drawable/_361728_removebg_preview"
+        android:id="@+id/imageView21"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/profile_icon_176363"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="64dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="15dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
